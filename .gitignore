@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+.pnp.*
+.yarn/*
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Editor / OS
+.DS_Store
+.idea/
+*.swp
+
+# Local agent config (keep shared settings, ignore local overrides)
+.claude/*
+!.claude/settings.json
+.claude/settings.local.json
+
+# Coverage / test
+coverage/
